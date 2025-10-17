@@ -77,7 +77,7 @@ public class Main {
                         vista.mostrarMensaje("Datos del rectángulo actual:\n" + rect);
                     }
                 }
-                case 0 -> JOptionPane.showMessageDialog(null, "Saliendo del programa...");
+                case 0 -> JOptionPane.showMessageDialog(null, "Saliendo del progrma");
                 default -> {
                     if (opcion != 0)
                         vista.mostrarMensaje("Opción no válida. Intente de nuevo.");
